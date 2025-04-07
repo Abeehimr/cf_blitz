@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Codeforces Blitz</title>
+  <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+<body>
+  <h2>1v1 Codeforces Blitz</h2>
+  <form id="startForm">
+    <input type="text" id="player1" placeholder="Player 1 Handle" required />
+    <input type="text" id="player2" placeholder="Player 2 Handle" required />
+    <input type="number" id="rating" placeholder="Rating (e.g., 1200)" />
+    <input type="number" id="duration" placeholder="Time (sec)" />
+    <button type="submit">Start Match</button>
+  </form>
+
+  <div id="status" style="margin-top: 20px;"></div>
+</body>
+</html>

@@ -25,4 +25,4 @@ Built with:
 
 ```bash
 git clone https://github.com/Abeehimr/codeforces_blitz.git
-cd codeforces-blitz
+cd codeforces_blitz

@@ -24,5 +24,5 @@ Built with:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/codeforces-blitz.git
+git clone https://github.com/Abeehimr/codeforces-blitz.git
 cd codeforces-blitz
